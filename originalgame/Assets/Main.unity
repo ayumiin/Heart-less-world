@@ -164,8 +164,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 2.64
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -188,8 +188,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282193549}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 6.12, y: 0.76, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 1.82, y: 1.61, z: 3.57}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1790059165}
   m_RootOrder: 2
@@ -288,7 +288,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 863953333}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.18, y: 0, z: 149.2}
+  m_LocalPosition: {x: 2.52, y: 0, z: 149.2}
   m_LocalScale: {x: 300, y: 0.45, z: 4.4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -394,7 +394,7 @@ Terrain:
   m_GameObject: {fileID: 1399176653}
   m_Enabled: 1
   serializedVersion: 3
-  m_TerrainData: {fileID: 15600000, guid: 683c6ac6bc47995428f8a29699cc7473, type: 2}
+  m_TerrainData: {fileID: 0}
   m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -457,11 +457,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c00a3e4d8a561f544b1a109c355ffc44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_buttonNames:
-  - Idle
-  - Run
-  - Dead
-  m_animator: {fileID: 0}
 --- !u!4 &1440598274
 Transform:
   m_ObjectHideFlags: 0

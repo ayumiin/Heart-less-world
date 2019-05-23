@@ -36,7 +36,7 @@ public class SampleAnimation : MonoBehaviour
             // 立っているところから走る
             this.animator.SetBool(key_isRun, true);
         }
-        else
+        else if(Input.GetKeyUp(KeyCode.RightArrow))
         {
             // 走っているところから止まる
             this.animator.SetBool(key_isRun, false);
@@ -50,7 +50,7 @@ public class SampleAnimation : MonoBehaviour
             // 立っているところから走る
             this.animator.SetBool(key_isRun, true);
         }
-        else
+        else if (Input.GetKeyUp(KeyCode.LeftArrow))
         {
             // 走っているところから止まる
             this.animator.SetBool(key_isRun, false);
